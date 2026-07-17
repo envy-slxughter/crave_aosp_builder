@@ -22,4 +22,18 @@ LOS 16:
 LOS CM 14.1:
   ignoreClientHostname: true
 
-#ignoreClientHostname is used to keep persistence by ignoring the client hostname
+# Halcyon Cloud Build Mapping
+Halcyon:
+  ignoreClientHostname: true
+  url: "https://github.com/halcyonproject/manifest"
+  branch: "16.2"
+  
+  # Pointing directly to your personal local manifest repository
+  local_manifests:
+    - repos: "https://github.com/envy-slxughter/local_manifests"
+        - name: "envy-slxughter/local_manifests"
+          path: ".repo/local_manifests"
+          remote: "github"
+          revision: "main"
+
+
