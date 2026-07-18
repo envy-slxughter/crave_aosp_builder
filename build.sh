@@ -158,13 +158,15 @@ git clone https://github.com/envy-slxughter/android_device_oneplus_sm8550-common
 git clone https://github.com/OnePlus12R-development/android_kernel_oneplus_sm8550.git -b sixteen-qpr2 kernel/oneplus/sm8550 --depth=1
 git clone https://github.com/OnePlus12R-development/android_kernel_oneplus_sm8550-modules.git -b sixteen-qpr2 kernel/oneplus/sm8550-modules --depth=1
 git clone https://github.com/gaurav-paul9/android_kernel_oneplus_sm8550-devicetrees.git -b lineage-23.2 kernel/oneplus/sm8550-devicetrees --depth=1
-git clone https://github.com/LineageOS/android_hardware_oplus.git -b lineage-23.2 hardware/oplus --depth=1
+git clone https://github.com/inferno0230/android_hardware_oplus -b sixteen-qpr2 hardware/oplus --depth=1
 git clone https://github.com/Pong-Development/hardware_dolby.git -b 16 hardware/dolby --depth=1
 git clone https://gitlab.com/playground0230/vendor_oneplus_astonc.git -b sixteen-qpr2 vendor/oneplus/astonc --depth=1
 git clone https://gitlab.com/playground0230/vendor_oneplus_sm8550-common.git -b sixteen-qpr2 vendor/oneplus/sm8550-common --depth=1
 git clone https://github.com/LineageOS/android_hardware_pixelworks_interfaces.git -b lineage-23.2 --depth=1 hardware/pixelworks/interfaces
 # git clone https://github.com/gaurav-paul9/packages_apps_Updater.git -b 16.2 packages/apps/Updater
 # git clone https://gaurav-paul9:${GH_TOKEN}@github.com/gaurav-paul9/android_vendor_lineage-priv_keys -b luna vendor/lunaris-priv/keys
+# git clone https://github.com/LineageOS/android_hardware_oplus.git -b lineage-23.2 hardware/oplus --depth=1 (if u wana build linaghe)
+
 
 send_telegram_message "🎋 *Trees Cloned.*
 🛠️ *Next:* Applying kernel patches..."
